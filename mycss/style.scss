@@ -1,0 +1,402 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.champ{
+  .juara{
+    display: flex;
+    justify-content: space-around;
+    .kartu{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/achievment1.png');
+      h4{
+        color: white;
+      }
+    }
+    .kartu1{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/achievment2.png');
+      h4{
+        color: white;
+      }
+    }
+    .kartu2{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/achievment3.png');
+      h4{
+        color: white;
+      }
+    }
+  }
+}
+
+.biaya{
+  h2{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .harga{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    .kartu{
+      margin-top: 10px;
+      background-color: #1670B1B2;
+      border-radius: 25px;
+      width: 300px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.hr{
+  max-width: 100%;
+}
+
+.kegiatan{
+  h2{
+    font-weight: 700;
+    font-size: 50px;
+  }
+}
+
+.text-nowrap{
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.font{
+  font-family: "Inter", sans-serif;
+}
+
+.nav{
+  font-family: "Inter", sans-serif;
+}
+
+.champ1{
+  .juara{
+    display: flex;
+    justify-content: space-around;
+    .kartu{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/foto3.png');
+      h4{
+        color: white;
+      }
+    }
+    .kartu1{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/foto1.png');
+      h4{
+        color: white;
+      }
+    }
+    .kartu2{
+      padding: 20px;
+      width: 300px;
+      height: 400px;
+      background-size: cover;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      background-image: url('../image/foto2.png');
+      h4{
+        color: white;
+      }
+    }
+  }
+}
+
+.card-alumni {
+  background-color: #D9D9D9;
+  max-width: 300px;
+}
+
+.judul {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.img-hee {
+  span {
+    margin-right: 10px;
+    width: 52px;
+    height: 52px;
+    top: 4740px;
+    left: 69px;
+  }
+
+  .img-user {
+    span {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+    }
+  }
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #000000; 
+}
+
+.text-positions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.left-text, .right-text {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #000000;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.social-icon, .contact-icon {
+  width: 65px;
+  height: 65px;
+  margin-right: 30px;
+}
+
+// Styling teks di bagian media sosial dan kontak
+.icon span, .contact-icon + span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .social-icon, .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .icon span, .contact-icon + span {
+    font-size: 14px;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+.container {
+  padding-top: 40px;
+}
+.d-flex {
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  width: 65px;
+  height: 65px;
+  margin-right: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+  margin-left: auto;
+}
+.contact-info span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  min-width: 180px;
+ 
+}
+@media (max-width: 768px) {
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .contact-info span {
+    font-size: 14px;
+    min-width: auto;
+  }
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.garis4 {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+.alur {
+  width: 1284px;
+  height: auto;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+
+  .bulatan {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      transform: translateY(-50%);
+  }
+
+  .bulatan-1 {
+      top: 50%;
+      left: 12%;
+      margin-left: 141px;
+  }
+
+  .bulatan-2 {
+      top: 50%;
+      left: 38%;
+      margin-left: 126px;
+  }
+
+  .bulatan-3 {
+      top: 50%;
+      left: 64%;
+      margin-left: 118px;
+  }
+
+  .bulatan-4 {
+      top: 50%;
+      left: 88%;
+      margin-left: 23px;
+  }
+}
+
+.text1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  margin-top: 50px;
+}
+
+.button-container{
+  .daftar-santri {
+    font-family: "Poppins", sans-serif;
+    background-color: #5E7548;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 50px;
+    border: none;
+    font-size: 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 520px;
+    
+    &:hover {
+        background-color: #4e5d38;
+    }
+  }
+  
+//   .btn-circle {
+//     background-color: #1670B1B2;
+//     border-radius: 50%;
+//     width: 60px;
+//     height: 60px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: none;
+//     cursor: pointer;
+//     transition: background-color 0.3s ease;
+//     margin-left: 1120px;
+//     margin-top: -54px;
+  
+//     &:hover {
+//         background-color: #4e82b3;
+//     }
+  
+//     .arrow-icon {
+//         width: 30px;
+//         height: 30px;
+//     }
+//   }
+// }
+
+
+.btn-circle {
+  background-color: #1670B1B2;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 1120px;
+  margin-top: -138px;
+
+  &:hover {
+      background-color: #4e82b3;
+  }
+
+  .arrow-icon {
+      width: 30px;
+      height: 30px;
+  }
+}
+}
